@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "my demo package",
   "license": "ISC",
-  "author": "",
+  "author": "doug jepson",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/dmbaDoug/my-package-repo.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
+  
+  
+
+
 }
